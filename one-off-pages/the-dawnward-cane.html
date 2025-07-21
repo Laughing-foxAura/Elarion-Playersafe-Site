@@ -71,7 +71,7 @@
       0,
       Math.random() < 1 - (chars - Math.floor(chars)) ? Math.floor(chars) : Math.ceil(chars)
     ).forEach((sibling) => {
-      sibling.el.innerText = getRandomCharacter(sibling.el.innerText);
+      sibling.el.textContent = getRandomCharacter(sibling.el.textContent);
       sibling.count++;
     });
   }, updateRateMs);
@@ -125,7 +125,7 @@
       0,
       Math.random() < 1 - (chars - Math.floor(chars)) ? Math.floor(chars) : Math.ceil(chars)
     ).forEach((sibling) => {
-      sibling.el.innerText = getRandomCharacter(sibling.el.innerText);
+      sibling.el.textContent = getRandomCharacter(sibling.el.textContent);
       sibling.count++;
     });
   }, updateRateMs);
@@ -179,7 +179,7 @@
       0,
       Math.random() < 1 - (chars - Math.floor(chars)) ? Math.floor(chars) : Math.ceil(chars)
     ).forEach((sibling) => {
-      sibling.el.innerText = getRandomCharacter(sibling.el.innerText);
+      sibling.el.textContent = getRandomCharacter(sibling.el.textContent);
       sibling.count++;
     });
   }, updateRateMs);
