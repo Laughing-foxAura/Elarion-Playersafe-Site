@@ -1,0 +1,27 @@
+.ao-obfuscated {
+  color: #b399e6;
+  font-family: monospace;
+  letter-spacing: 0.1em;
+  user-select: none;
+  display: inline-block;
+  text-shadow:
+    0 0 4px #6a0dad,
+    0 0 6px #a875ff,
+    0 0 10px #d8b4f8;
+  animation: shimmer 2.5s infinite ease-in-out;
+}
+
+@keyframes shimmer {
+  0% {
+    filter: blur(0.3px);
+    opacity: 0.85;
+  }
+  50% {
+    filter: blur(1px);
+    opacity: 1;
+  }
+  100% {
+    filter: blur(0.3px);
+    opacity: 0.85;
+  }
+}
