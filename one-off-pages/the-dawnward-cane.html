@@ -1,56 +1,55 @@
 <style>
-.arcane-character {
-  position: relative;
-  display: inline-block;
-  font-family: "Junicode", "UnifrakturCook", "Noto Sans Runic", serif;
-  color: #fff7e6;
-  text-shadow:
-    0 0 4px #fff2cc,
-    0 0 8px #ffeaa7,
-    0 0 12px #fceabb,
-    0 0 18px #f5e6a4;
-  transition: text-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
-}
-
-.arcane-character:hover {
-  transform: scale(1.15) rotate(2deg);
-  text-shadow:
-    0 0 6px #fff3b0,
-    0 0 10px #ffdf70,
-    0 0 16px #ffcc47,
-    0 0 22px #ffeaa7;
-}
-
-/* Ripple Effect */
-.arcane-character::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0.4em;
-  height: 0.4em;
-  background: radial-gradient(circle, rgba(255, 247, 200, 0.3) 0%, transparent 70%);
-  border-radius: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  opacity: 0.8;
-  pointer-events: none;
-  animation: ripple-glow 2.4s infinite ease-out;
-}
-
-@keyframes ripple-glow {
-  0% {
-    transform: translate(-50%, -50%) scale(0.9);
-    opacity: 0.5;
+  .arcane-holy {
+    position: relative;
+    display: inline-block;
+    font-family: "Junicode", "UnifrakturCook", "Noto Sans Runic", serif;
+    color: #fff6db;
+    text-shadow:
+      0 0 4px #ffe8b0,
+      0 0 8px #ffd666,
+      0 0 12px #ffc107,
+      0 0 16px #fff0b3;
+    transition: text-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
   }
-  50% {
-    transform: translate(-50%, -50%) scale(1.5);
-    opacity: 0.2;
+
+  .arcane-holy:hover {
+    transform: scale(1.15) rotate(2deg);
+    text-shadow:
+      0 0 6px #fff3b0,
+      0 0 10px #ffd700,
+      0 0 16px #ffcc47,
+      0 0 22px #fff9d1;
   }
-  100% {
-    transform: translate(-50%, -50%) scale(2.2);
-    opacity: 0;
+
+  .arcane-holy::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0.4em;
+    height: 0.4em;
+    background: radial-gradient(circle, rgba(255, 247, 200, 0.3) 0%, transparent 70%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.8;
+    pointer-events: none;
+    animation: ripple-glow 2.4s infinite ease-out;
   }
-}
+
+  @keyframes ripple-glow {
+    0% {
+      transform: translate(-50%, -50%) scale(0.9);
+      opacity: 0.7;
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(1.3);
+      opacity: 0.4;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(0.9);
+      opacity: 0.7;
+    }
+  }
 </style>
 
 <!DOCTYPE html> <html><head>
@@ -77,7 +76,108 @@
 <li data-line="0" dir="auto">The staff was crafted not by hands, but by Saint Vivi herself, through an act of divine transmutation at the moment she invoked the barrier.  </li>
 <li data-line="1" dir="auto">It is said the wood came from the First Tree of the mountain pass, and the light from a fallen star.  </li>
 <li data-line="2" dir="auto">When Vivi cast the spell that formed the barrier, she poured her soul into the staff, causing her body to collapse and the artifact to root itself into the sanctum floor.</li>
-</ul></div><div class="el-hr"><hr></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Hidden Properties" dir="auto" class="heading" id="Hidden_Properties"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Hidden Properties</h2><div class="heading-children"><div class="el-p"><p dir="auto"><span class="arcane-word"><span class="arcane-character">ᛠ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛉ</span><span class="arcane-character">ᛏ</span><span class="arcane-character">ᛠ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛈ</span><span class="arcane-character">ᛈ</span><span class="arcane-character">ᚱ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᛖ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛠ</span><span class="arcane-character">ᛝ</span><span class="arcane-character">ᚦ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚦ</span><span class="arcane-character">ᛞ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᛞ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛒ</span><span class="arcane-character">ᛁ</span><span class="arcane-character">ᚢ</span><span class="arcane-character">ᚨ</span><span class="arcane-character">ᛏ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚦ</span><span class="arcane-character">ᚠ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛉ</span><span class="arcane-character">ᛃ</span><span class="arcane-character">ᚺ</span><span class="arcane-character">ᛖ</span><span class="arcane-character">ᛟ</span><span class="arcane-character">ᚹ</span><span class="arcane-character">ᛏ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛚ</span><span class="arcane-character">ᛗ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚢ</span><span class="arcane-character">ᚢ</span><span class="arcane-character">ᚢ</span><span class="arcane-character">ᛃ</span><span class="arcane-character">ᚢ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚾ</span><span class="arcane-character">ᚨ</span><span class="arcane-character">ᚾ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᛝ</span><span class="arcane-character">ᚠ</span><span class="arcane-character">ᚨ</span><span class="arcane-character">ᛟ</span><span class="arcane-character">ᛃ</span><span class="arcane-character">ᛝ</span><span class="arcane-character">ᛡ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛏ</span><span class="arcane-character">ᛃ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛈ</span><span class="arcane-character">ᛒ</span><span class="arcane-character">ᛚ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛟ</span><span class="arcane-character">ᛈ</span><span class="arcane-character">ᛉ</span><span class="arcane-character">ᛉ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᚹ</span><span class="arcane-character">ᚲ</span><span class="arcane-character">ᛟ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚷ</span><span class="arcane-character">ᛈ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚾ</span><span class="arcane-character">ᚲ</span><span class="arcane-character">ᚦ</span><span class="arcane-character">ᚨ</span><span class="arcane-character">ᛚ</span><span class="arcane-character">ᛠ</span><span class="arcane-character">ᚾ</span><span class="arcane-character">ᛡ</span><span class="arcane-character">ᛉ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚨ</span><span class="arcane-character">ᛠ</span><span class="arcane-character">ᛗ</span><span class="arcane-character">ᛁ</span><span class="arcane-character">ᚲ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚷ</span><span class="arcane-character">ᛉ</span><span class="arcane-character">ᛉ</span><span class="arcane-character">ᚷ</span><span class="arcane-character">ᛒ</span><span class="arcane-character">ᛖ</span><span class="arcane-character">ᚨ</span><span class="arcane-character">ᛃ</span><span class="arcane-character">ᛉ</span><span class="arcane-character">ᚾ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚢ</span><span class="arcane-character">ᛚ</span><span class="arcane-character">ᛗ</span><span class="arcane-character">ᛒ</span><span class="arcane-character">ᛗ</span><span class="arcane-character">ᛡ</span><span class="arcane-character">ᚦ</span><span class="arcane-character">ᚢ</span><span class="arcane-character">ᚠ</span><span class="arcane-character">ᚲ</span><span class="arcane-character">ᚢ</span><span class="arcane-character">ᚷ</span><span class="arcane-character">ᚠ</span><span class="arcane-character">ᛟ</span></span><script class="arcane-script">((characterSet, characterChangeRate, updateRateMs) => {
+</ul></div><div class="el-hr"><hr></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Hidden Properties" dir="auto" class="heading" id="Hidden_Properties"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Hidden Properties</h2><div class="heading-children"><div class="el-p"><p dir="auto"><span class="arcane-word"><span class="arcane-holy
+">ᛠ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛉ</span><span class="arcane-holy
+">ᛏ</span><span class="arcane-holy
+">ᛠ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛈ</span><span class="arcane-holy
+">ᛈ</span><span class="arcane-holy
+">ᚱ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᛖ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛠ</span><span class="arcane-holy
+">ᛝ</span><span class="arcane-holy
+">ᚦ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚦ</span><span class="arcane-holy
+">ᛞ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᛞ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛒ</span><span class="arcane-holy
+">ᛁ</span><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᚨ</span><span class="arcane-holy
+">ᛏ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚦ</span><span class="arcane-holy
+">ᚠ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛉ</span><span class="arcane-holy
+">ᛃ</span><span class="arcane-holy
+">ᚺ</span><span class="arcane-holy
+">ᛖ</span><span class="arcane-holy
+">ᛟ</span><span class="arcane-holy
+">ᚹ</span><span class="arcane-holy
+">ᛏ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛚ</span><span class="arcane-holy
+">ᛗ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᛃ</span><span class="arcane-holy
+">ᚢ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᚨ</span><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᛝ</span><span class="arcane-holy
+">ᚠ</span><span class="arcane-holy
+">ᚨ</span><span class="arcane-holy
+">ᛟ</span><span class="arcane-holy
+">ᛃ</span><span class="arcane-holy
+">ᛝ</span><span class="arcane-holy
+">ᛡ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛏ</span><span class="arcane-holy
+">ᛃ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛈ</span><span class="arcane-holy
+">ᛒ</span><span class="arcane-holy
+">ᛚ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛟ</span><span class="arcane-holy
+">ᛈ</span><span class="arcane-holy
+">ᛉ</span><span class="arcane-holy
+">ᛉ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᚹ</span><span class="arcane-holy
+">ᚲ</span><span class="arcane-holy
+">ᛟ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚷ</span><span class="arcane-holy
+">ᛈ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᚲ</span><span class="arcane-holy
+">ᚦ</span><span class="arcane-holy
+">ᚨ</span><span class="arcane-holy
+">ᛚ</span><span class="arcane-holy
+">ᛠ</span><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᛡ</span><span class="arcane-holy
+">ᛉ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚨ</span><span class="arcane-holy
+">ᛠ</span><span class="arcane-holy
+">ᛗ</span><span class="arcane-holy
+">ᛁ</span><span class="arcane-holy
+">ᚲ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚷ</span><span class="arcane-holy
+">ᛉ</span><span class="arcane-holy
+">ᛉ</span><span class="arcane-holy
+">ᚷ</span><span class="arcane-holy
+">ᛒ</span><span class="arcane-holy
+">ᛖ</span><span class="arcane-holy
+">ᚨ</span><span class="arcane-holy
+">ᛃ</span><span class="arcane-holy
+">ᛉ</span><span class="arcane-holy
+">ᚾ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᛚ</span><span class="arcane-holy
+">ᛗ</span><span class="arcane-holy
+">ᛒ</span><span class="arcane-holy
+">ᛗ</span><span class="arcane-holy
+">ᛡ</span><span class="arcane-holy
+">ᚦ</span><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᚠ</span><span class="arcane-holy
+">ᚲ</span><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᚷ</span><span class="arcane-holy
+">ᚠ</span><span class="arcane-holy
+">ᛟ</span></span><script class="arcane-script">((characterSet, characterChangeRate, updateRateMs) => {
   function getRandomCharacter(not) {
     let candidates = characterSet.replace(not != null ? not : "", "");
     return candidates[Math.floor(Math.random() * candidates.length)];
@@ -131,7 +231,153 @@
     });
   }, updateRateMs);
 })('ᚠᚢᚦᚨᚱᚲᚷᚹᚺᚾᛁᛃᛇᛈᛉᛋᛏᛒᛖᛗᛚᛝᛟᛞᛡᛠ', 0.3, 300)</script><br>
-<span class="arcane-word"><span class="arcane-character">ᛒ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚺ</span><span class="arcane-character">ᚢ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚦ</span><span class="arcane-character">ᛈ</span><span class="arcane-character">ᛈ</span><span class="arcane-character">ᛗ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚱ</span><span class="arcane-character">ᛞ</span><span class="arcane-character">ᚠ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᛁ</span><span class="arcane-character">ᛞ</span><span class="arcane-character">ᚱ</span><span class="arcane-character">ᛝ</span><span class="arcane-character">ᚱ</span><span class="arcane-character">ᚺ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᛠ</span><span class="arcane-character">ᛈ</span><span class="arcane-character">ᛇ</span><span class="arcane-character">ᛃ</span><span class="arcane-character">ᛏ</span><span class="arcane-character">ᛒ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚹ</span><span class="arcane-character">ᛒ</span><span class="arcane-character">ᛝ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᛃ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛡ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᛝ</span><span class="arcane-character">ᛁ</span><span class="arcane-character">ᚦ</span><span class="arcane-character">ᚨ</span><span class="arcane-character">ᚷ</span><span class="arcane-character">ᚺ</span><span class="arcane-character">ᛉ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛇ</span><span class="arcane-character">ᚹ</span><span class="arcane-character">ᛝ</span><span class="arcane-character">ᚾ</span><span class="arcane-character">ᛁ</span><span class="arcane-character">ᛚ</span><span class="arcane-character">ᚱ</span><span class="arcane-character">ᛖ</span><span class="arcane-character">ᛉ</span><span class="arcane-character">ᚦ</span><span class="arcane-character">ᛒ</span><span class="arcane-character">ᚢ</span><span class="arcane-character">ᛒ</span><span class="arcane-character">ᚷ</span><span class="arcane-character">ᛡ</span><span class="arcane-character">ᚷ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛃ</span><span class="arcane-character">ᛝ</span><span class="arcane-character">ᛝ</span><span class="arcane-character">ᛇ</span><span class="arcane-character">ᚦ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚷ</span><span class="arcane-character">ᛁ</span><span class="arcane-character">ᚢ</span><span class="arcane-character">ᚦ</span><span class="arcane-character">ᛝ</span><span class="arcane-character">ᛞ</span><span class="arcane-character">ᛠ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛃ</span><span class="arcane-character">ᛈ</span><span class="arcane-character">ᚦ</span><span class="arcane-character">ᛟ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚹ</span><span class="arcane-character">ᚱ</span><span class="arcane-character">ᚹ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛡ</span><span class="arcane-character">ᛡ</span><span class="arcane-character">ᚢ</span><span class="arcane-character">ᛝ</span><span class="arcane-character">ᚦ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛏ</span><span class="arcane-character">ᚢ</span><span class="arcane-character">ᚦ</span><span class="arcane-character">ᚱ</span><span class="arcane-character">ᛟ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚲ</span><span class="arcane-character">ᛏ</span><span class="arcane-character">ᛞ</span><span class="arcane-character">ᚨ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛗ</span><span class="arcane-character">ᛁ</span><span class="arcane-character">ᚹ</span><span class="arcane-character">ᚾ</span><span class="arcane-character">ᛟ</span><span class="arcane-character">ᛡ</span><span class="arcane-character">ᛈ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛗ</span><span class="arcane-character">ᛈ</span><span class="arcane-character">ᚹ</span><span class="arcane-character">ᚺ</span><span class="arcane-character">ᚢ</span><span class="arcane-character">ᚾ</span><span class="arcane-character">ᚾ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛖ</span><span class="arcane-character">ᛚ</span><span class="arcane-character">ᛈ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚺ</span><span class="arcane-character">ᚱ</span><span class="arcane-character">ᚢ</span><span class="arcane-character">ᚷ</span><span class="arcane-character">ᚦ</span><span class="arcane-character">ᚹ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᛟ</span><span class="arcane-character">ᛡ</span><span class="arcane-character">ᛝ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚲ</span><span class="arcane-character">ᛠ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛝ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛡ</span><span class="arcane-character">ᛇ</span><span class="arcane-character">ᛒ</span><span class="arcane-character">ᚦ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᛟ</span><span class="arcane-character">ᛏ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛡ</span><span class="arcane-character">ᛞ</span><span class="arcane-character">ᛁ</span><span class="arcane-character">ᛡ</span><span class="arcane-character">ᛁ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚾ</span><span class="arcane-character">ᛒ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚦ</span><span class="arcane-character">ᛈ</span><span class="arcane-character">ᛗ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚺ</span><span class="arcane-character">ᚹ</span><span class="arcane-character">ᛉ</span><span class="arcane-character">ᛏ</span><span class="arcane-character">ᛇ</span><span class="arcane-character">ᚢ</span><span class="arcane-character">ᚷ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚹ</span><span class="arcane-character">ᚾ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᛞ</span><span class="arcane-character">ᛉ</span></span><script class="arcane-script">((characterSet, characterChangeRate, updateRateMs) => {
+<span class="arcane-word"><span class="arcane-holy
+">ᛒ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚺ</span><span class="arcane-holy
+">ᚢ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚦ</span><span class="arcane-holy
+">ᛈ</span><span class="arcane-holy
+">ᛈ</span><span class="arcane-holy
+">ᛗ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚱ</span><span class="arcane-holy
+">ᛞ</span><span class="arcane-holy
+">ᚠ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᛁ</span><span class="arcane-holy
+">ᛞ</span><span class="arcane-holy
+">ᚱ</span><span class="arcane-holy
+">ᛝ</span><span class="arcane-holy
+">ᚱ</span><span class="arcane-holy
+">ᚺ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᛠ</span><span class="arcane-holy
+">ᛈ</span><span class="arcane-holy
+">ᛇ</span><span class="arcane-holy
+">ᛃ</span><span class="arcane-holy
+">ᛏ</span><span class="arcane-holy
+">ᛒ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚹ</span><span class="arcane-holy
+">ᛒ</span><span class="arcane-holy
+">ᛝ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᛃ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛡ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᛝ</span><span class="arcane-holy
+">ᛁ</span><span class="arcane-holy
+">ᚦ</span><span class="arcane-holy
+">ᚨ</span><span class="arcane-holy
+">ᚷ</span><span class="arcane-holy
+">ᚺ</span><span class="arcane-holy
+">ᛉ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛇ</span><span class="arcane-holy
+">ᚹ</span><span class="arcane-holy
+">ᛝ</span><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᛁ</span><span class="arcane-holy
+">ᛚ</span><span class="arcane-holy
+">ᚱ</span><span class="arcane-holy
+">ᛖ</span><span class="arcane-holy
+">ᛉ</span><span class="arcane-holy
+">ᚦ</span><span class="arcane-holy
+">ᛒ</span><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᛒ</span><span class="arcane-holy
+">ᚷ</span><span class="arcane-holy
+">ᛡ</span><span class="arcane-holy
+">ᚷ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛃ</span><span class="arcane-holy
+">ᛝ</span><span class="arcane-holy
+">ᛝ</span><span class="arcane-holy
+">ᛇ</span><span class="arcane-holy
+">ᚦ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚷ</span><span class="arcane-holy
+">ᛁ</span><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᚦ</span><span class="arcane-holy
+">ᛝ</span><span class="arcane-holy
+">ᛞ</span><span class="arcane-holy
+">ᛠ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛃ</span><span class="arcane-holy
+">ᛈ</span><span class="arcane-holy
+">ᚦ</span><span class="arcane-holy
+">ᛟ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚹ</span><span class="arcane-holy
+">ᚱ</span><span class="arcane-holy
+">ᚹ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛡ</span><span class="arcane-holy
+">ᛡ</span><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᛝ</span><span class="arcane-holy
+">ᚦ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛏ</span><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᚦ</span><span class="arcane-holy
+">ᚱ</span><span class="arcane-holy
+">ᛟ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚲ</span><span class="arcane-holy
+">ᛏ</span><span class="arcane-holy
+">ᛞ</span><span class="arcane-holy
+">ᚨ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛗ</span><span class="arcane-holy
+">ᛁ</span><span class="arcane-holy
+">ᚹ</span><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᛟ</span><span class="arcane-holy
+">ᛡ</span><span class="arcane-holy
+">ᛈ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛗ</span><span class="arcane-holy
+">ᛈ</span><span class="arcane-holy
+">ᚹ</span><span class="arcane-holy
+">ᚺ</span><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᚾ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛖ</span><span class="arcane-holy
+">ᛚ</span><span class="arcane-holy
+">ᛈ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚺ</span><span class="arcane-holy
+">ᚱ</span><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᚷ</span><span class="arcane-holy
+">ᚦ</span><span class="arcane-holy
+">ᚹ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᛟ</span><span class="arcane-holy
+">ᛡ</span><span class="arcane-holy
+">ᛝ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚲ</span><span class="arcane-holy
+">ᛠ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛝ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛡ</span><span class="arcane-holy
+">ᛇ</span><span class="arcane-holy
+">ᛒ</span><span class="arcane-holy
+">ᚦ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᛟ</span><span class="arcane-holy
+">ᛏ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛡ</span><span class="arcane-holy
+">ᛞ</span><span class="arcane-holy
+">ᛁ</span><span class="arcane-holy
+">ᛡ</span><span class="arcane-holy
+">ᛁ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᛒ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚦ</span><span class="arcane-holy
+">ᛈ</span><span class="arcane-holy
+">ᛗ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚺ</span><span class="arcane-holy
+">ᚹ</span><span class="arcane-holy
+">ᛉ</span><span class="arcane-holy
+">ᛏ</span><span class="arcane-holy
+">ᛇ</span><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᚷ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚹ</span><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᛞ</span><span class="arcane-holy
+">ᛉ</span></span><script class="arcane-script">((characterSet, characterChangeRate, updateRateMs) => {
   function getRandomCharacter(not) {
     let candidates = characterSet.replace(not != null ? not : "", "");
     return candidates[Math.floor(Math.random() * candidates.length)];
@@ -185,7 +431,101 @@
     });
   }, updateRateMs);
 })('ᚠᚢᚦᚨᚱᚲᚷᚹᚺᚾᛁᛃᛇᛈᛉᛋᛏᛒᛖᛗᛚᛝᛟᛞᛡᛠ', 0.3, 300)</script><br>
-<span class="arcane-word"><span class="arcane-character">ᛗ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛠ</span><span class="arcane-character">ᛠ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛗ</span><span class="arcane-character">ᛞ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛞ</span><span class="arcane-character">ᚲ</span><span class="arcane-character">ᛖ</span><span class="arcane-character">ᛝ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛏ</span><span class="arcane-character">ᛇ</span><span class="arcane-character">ᛏ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛠ</span><span class="arcane-character">ᛞ</span><span class="arcane-character">ᛚ</span><span class="arcane-character">ᚾ</span><span class="arcane-character">ᚺ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚠ</span><span class="arcane-character">ᛏ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛝ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᚢ</span><span class="arcane-character">ᛖ</span><span class="arcane-character">ᛃ</span><span class="arcane-character">ᚢ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᚹ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛖ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚱ</span><span class="arcane-character">ᛡ</span><span class="arcane-character">ᛚ</span><span class="arcane-character">ᛃ</span><span class="arcane-character">ᚾ</span><span class="arcane-character">ᛁ</span><span class="arcane-character">ᚱ</span><span class="arcane-character">ᛉ</span><span class="arcane-character">ᛃ</span><span class="arcane-character">ᛠ</span><span class="arcane-character">ᛞ</span><span class="arcane-character">ᛠ</span><span class="arcane-character">ᛁ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛝ</span><span class="arcane-character">ᚲ</span><span class="arcane-character">ᛃ</span><span class="arcane-character">ᛃ</span><span class="arcane-character">ᛞ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚾ</span><span class="arcane-character">ᛠ</span><span class="arcane-character">ᚹ</span><span class="arcane-character">ᛚ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛋ</span><span class="arcane-character">ᚠ</span><span class="arcane-character">ᛖ</span><span class="arcane-character">ᚠ</span><span class="arcane-character">ᛁ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛋ</span><span class="arcane-character">ᛉ</span><span class="arcane-character">ᛖ</span><span class="arcane-character">ᚲ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛉ</span><span class="arcane-character">ᛁ</span><span class="arcane-character">ᛏ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚹ</span><span class="arcane-character">ᚾ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᛒ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛇ</span><span class="arcane-character">ᚺ</span><span class="arcane-character">ᚠ</span><span class="arcane-character">ᚲ</span><span class="arcane-character">ᛚ</span><span class="arcane-character">ᛈ</span><span class="arcane-character">ᛚ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚲ</span><span class="arcane-character">ᛏ</span><span class="arcane-character">ᚺ</span><span class="arcane-character">ᛈ</span><span class="arcane-character">ᛗ</span><span class="arcane-character">ᛖ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛈ</span><span class="arcane-character">ᛟ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᚷ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛚ</span><span class="arcane-character">ᚺ</span><span class="arcane-character">ᛟ</span><span class="arcane-character">ᛝ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚱ</span><span class="arcane-character">ᚦ</span><span class="arcane-character">ᚾ</span><span class="arcane-character">ᚨ</span><span class="arcane-character">ᚾ</span><span class="arcane-character">ᚷ</span><span class="arcane-character">ᛖ</span></span><script class="arcane-script">((characterSet, characterChangeRate, updateRateMs) => {
+<span class="arcane-word"><span class="arcane-holy
+">ᛗ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛠ</span><span class="arcane-holy
+">ᛠ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛗ</span><span class="arcane-holy
+">ᛞ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛞ</span><span class="arcane-holy
+">ᚲ</span><span class="arcane-holy
+">ᛖ</span><span class="arcane-holy
+">ᛝ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛏ</span><span class="arcane-holy
+">ᛇ</span><span class="arcane-holy
+">ᛏ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛠ</span><span class="arcane-holy
+">ᛞ</span><span class="arcane-holy
+">ᛚ</span><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᚺ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚠ</span><span class="arcane-holy
+">ᛏ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛝ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᛖ</span><span class="arcane-holy
+">ᛃ</span><span class="arcane-holy
+">ᚢ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᚹ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛖ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚱ</span><span class="arcane-holy
+">ᛡ</span><span class="arcane-holy
+">ᛚ</span><span class="arcane-holy
+">ᛃ</span><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᛁ</span><span class="arcane-holy
+">ᚱ</span><span class="arcane-holy
+">ᛉ</span><span class="arcane-holy
+">ᛃ</span><span class="arcane-holy
+">ᛠ</span><span class="arcane-holy
+">ᛞ</span><span class="arcane-holy
+">ᛠ</span><span class="arcane-holy
+">ᛁ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛝ</span><span class="arcane-holy
+">ᚲ</span><span class="arcane-holy
+">ᛃ</span><span class="arcane-holy
+">ᛃ</span><span class="arcane-holy
+">ᛞ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᛠ</span><span class="arcane-holy
+">ᚹ</span><span class="arcane-holy
+">ᛚ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᚠ</span><span class="arcane-holy
+">ᛖ</span><span class="arcane-holy
+">ᚠ</span><span class="arcane-holy
+">ᛁ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᛉ</span><span class="arcane-holy
+">ᛖ</span><span class="arcane-holy
+">ᚲ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛉ</span><span class="arcane-holy
+">ᛁ</span><span class="arcane-holy
+">ᛏ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚹ</span><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᛒ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛇ</span><span class="arcane-holy
+">ᚺ</span><span class="arcane-holy
+">ᚠ</span><span class="arcane-holy
+">ᚲ</span><span class="arcane-holy
+">ᛚ</span><span class="arcane-holy
+">ᛈ</span><span class="arcane-holy
+">ᛚ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚲ</span><span class="arcane-holy
+">ᛏ</span><span class="arcane-holy
+">ᚺ</span><span class="arcane-holy
+">ᛈ</span><span class="arcane-holy
+">ᛗ</span><span class="arcane-holy
+">ᛖ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛈ</span><span class="arcane-holy
+">ᛟ</span><span class="arcane-holy
+">ᛋ</span><span class="arcane-holy
+">ᚷ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᛚ</span><span class="arcane-holy
+">ᚺ</span><span class="arcane-holy
+">ᛟ</span><span class="arcane-holy
+">ᛝ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-holy
+">ᚱ</span><span class="arcane-holy
+">ᚦ</span><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᚨ</span><span class="arcane-holy
+">ᚾ</span><span class="arcane-holy
+">ᚷ</span><span class="arcane-holy
+">ᛖ</span></span><script class="arcane-script">((characterSet, characterChangeRate, updateRateMs) => {
   function getRandomCharacter(not) {
     let candidates = characterSet.replace(not != null ? not : "", "");
     return candidates[Math.floor(Math.random() * candidates.length)];

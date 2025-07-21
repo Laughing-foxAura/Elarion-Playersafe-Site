@@ -1,3 +1,57 @@
+<style>
+  .arcane-void {
+    position: relative;
+    display: inline-block;
+    font-family: "Junicode", "UnifrakturCook", "Noto Sans Runic", serif;
+    color: #e0d2ff;
+    text-shadow:
+      0 0 4px #d0bfff,
+      0 0 8px #b28dff,
+      0 0 12px #a46bff,
+      0 0 16px #894ef7;
+    transition: text-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+
+  .arcane-void:hover {
+    transform: scale(1.1) rotate(-1deg);
+    text-shadow:
+      0 0 6px #c9b3ff,
+      0 0 12px #a779ff,
+      0 0 18px #9250ff,
+      0 0 24px #772ee0;
+  }
+
+  .arcane-void::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0.4em;
+    height: 0.4em;
+    background: radial-gradient(circle, rgba(185, 133, 255, 0.3) 0%, transparent 70%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.7;
+    pointer-events: none;
+    animation: ripple-void 2.6s infinite ease-out;
+  }
+
+  @keyframes ripple-void {
+    0% {
+      transform: translate(-50%, -50%) scale(0.9);
+      opacity: 0.6;
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(1.4);
+      opacity: 0.35;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(0.9);
+      opacity: 0.6;
+    }
+  }
+</style>
+
 <!DOCTYPE html> <html><head>
 		<title>Myrhold</title>
 		<base href="..\../">
@@ -45,7 +99,34 @@
 </ul></div><div class="el-p"><p dir="auto">The city is called the <strong>Roosted Bastion</strong> because it doesn’t just resist attack — it actively watches from every height and shadow.</p></div><div class="el-hr"><hr></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Lore &amp; Tensions" dir="auto" class="heading" id="Lore_&amp;_Tensions"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Lore &amp; Tensions</h2><div class="heading-children"><div class="el-p"><p dir="auto">Despite its unity, Myrhold faces pressure:</p></div><div class="el-ul"><ul>
 <li data-line="0" dir="auto"><strong>Obelion’s presence</strong> continues to amplify the local leyline — some councilors fear it is <strong>reshaping the land itself</strong>  </li>
 <li data-line="1" dir="auto"><strong>Aarakocra scouts</strong> report <strong>magical pulses over <a data-href="Cenwyn" href="houses/dravandor/cenwyn.html" class="internal-link" target="_self" rel="noopener nofollow">Cenwyn</a></strong>, possibly signs of <strong>rift activity</strong>  </li>
-<li data-line="2" dir="auto">A <strong>kobold engineer</strong> disappeared beneath the old quarry district after unearthing <span class="arcane-word"><span class="arcane-character">ᛃ</span><span class="arcane-character">ᚦ</span><span class="arcane-character">ᚦ</span><span class="arcane-character">ᛚ</span><span class="arcane-character">ᛈ</span><span class="arcane-character">ᚺ</span><span class="arcane-character">ᛗ</span><span class="arcane-character">ᛃ</span><span class="arcane-character">ᚨ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛒ</span><span class="arcane-character">ᚦ</span><span class="arcane-character">ᛡ</span><span class="arcane-character">ᚺ</span><span class="arcane-character">ᚢ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛃ</span><span class="arcane-character">ᚦ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᛝ</span><span class="arcane-character">ᛠ</span><span class="arcane-character">ᚱ</span><span class="arcane-character">ᚲ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚾ</span><span class="arcane-character">ᛏ</span><span class="arcane-character">ᛇ</span><span class="arcane-character">ᛟ</span><span class="arcane-character">ᛋ</span><span class="arcane-character">ᛇ</span><span class="arcane-character">ᛝ</span></span><script class="arcane-script">((characterSet, characterChangeRate, updateRateMs) => {
+<li data-line="2" dir="auto">A <strong>kobold engineer</strong> disappeared beneath the old quarry district after unearthing <span class="arcane-word"><span class="arcane-void
+">ᛃ</span><span class="arcane-void
+">ᚦ</span><span class="arcane-void
+">ᚦ</span><span class="arcane-void
+">ᛚ</span><span class="arcane-void
+">ᛈ</span><span class="arcane-void
+">ᚺ</span><span class="arcane-void
+">ᛗ</span><span class="arcane-void
+">ᛃ</span><span class="arcane-void
+">ᚨ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-void
+">ᛒ</span><span class="arcane-void
+">ᚦ</span><span class="arcane-void
+">ᛡ</span><span class="arcane-void
+">ᚺ</span><span class="arcane-void
+">ᚢ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-void
+">ᛃ</span><span class="arcane-void
+">ᚦ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-void
+">ᛝ</span><span class="arcane-void
+">ᛠ</span><span class="arcane-void
+">ᚱ</span><span class="arcane-void
+">ᚲ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-void
+">ᚾ</span><span class="arcane-void
+">ᛏ</span><span class="arcane-void
+">ᛇ</span><span class="arcane-void
+">ᛟ</span><span class="arcane-void
+">ᛋ</span><span class="arcane-void
+">ᛇ</span><span class="arcane-void
+">ᛝ</span></span><script class="arcane-script">((characterSet, characterChangeRate, updateRateMs) => {
   function getRandomCharacter(not) {
     let candidates = characterSet.replace(not != null ? not : "", "");
     return candidates[Math.floor(Math.random() * candidates.length)];

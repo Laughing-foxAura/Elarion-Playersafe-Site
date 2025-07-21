@@ -1,3 +1,57 @@
+<style>
+  .arcane-nature {
+    position: relative;
+    display: inline-block;
+    font-family: "Junicode", "UnifrakturCook", "Noto Sans Runic", serif;
+    color: #b8f7c1;
+    text-shadow:
+      0 0 3px #a4f4a3,
+      0 0 6px #7bffa2,
+      0 0 10px #5df580,
+      0 0 14px #5dff60;
+    transition: text-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+
+  .arcane-nature:hover {
+    transform: scale(1.08);
+    text-shadow:
+      0 0 6px #8efca6,
+      0 0 12px #63ff99,
+      0 0 18px #3cf276,
+      0 0 24px #34e165;
+  }
+
+  .arcane-nature::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0.4em;
+    height: 0.4em;
+    background: radial-gradient(circle, rgba(92, 255, 144, 0.25) 0%, transparent 70%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.7;
+    pointer-events: none;
+    animation: ripple-nature 2.8s infinite ease-out;
+  }
+
+  @keyframes ripple-nature {
+    0% {
+      transform: translate(-50%, -50%) scale(0.9);
+      opacity: 0.6;
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(1.4);
+      opacity: 0.35;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(0.9);
+      opacity: 0.6;
+    }
+  }
+</style>
+
 <!DOCTYPE html> <html><head>
 		<title>Greenthorn Canopy</title>
 		<base href="..\../">
@@ -26,7 +80,28 @@ A reclusive firbolg mystic, bonded to Yssaviel through ancient rite.</p></div><d
 A blind elf who walks barefoot among the roots, able to interpret tremors in the bark as language.</p></div><div class="el-p"><p dir="auto"><strong>Callen Mossbloom</strong><br>
 A half-orc herbalist and musician who trades in rare spores and sings lullabies to Yssaviel’s seedlings.</p></div><div class="el-hr"><hr></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Conflicts &amp; Tensions" dir="auto" class="heading" id="Conflicts_&amp;_Tensions"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Conflicts &amp; Tensions</h2><div class="heading-children"><div class="el-ul"><ul>
 <li data-line="0" dir="auto"><strong>Druids of the Outer Circles</strong> disagree with Thalya’s isolationist policies, wanting Greenthorn to play a more active role in Pactland defense.  </li>
-<li data-line="1" dir="auto">Some whisper that <strong>Yssaviel is sleeping more often</strong>, and when it dreams, the air itself changes — <span class="arcane-word"><span class="arcane-character">ᚦ</span><span class="arcane-character">ᛏ</span><span class="arcane-character">ᛝ</span><span class="arcane-character">ᚾ</span><span class="arcane-character">ᚠ</span><span class="arcane-character">ᛟ</span><span class="arcane-character">ᛁ</span><span class="arcane-character">ᚾ</span><span class="arcane-character">ᛞ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-character">ᚨ</span><span class="arcane-character">ᛝ</span><span class="arcane-character">ᛈ</span><span class="arcane-character">ᛚ</span><span class="arcane-character">ᛃ</span><span class="arcane-character">ᛇ</span><span class="arcane-character">ᛁ</span><span class="arcane-character">ᛉ</span><span class="arcane-character">ᛟ</span><span class="arcane-character">ᛁ</span><span class="arcane-character">ᛖ</span><span class="arcane-character">ᛁ</span></span><script class="arcane-script">((characterSet, characterChangeRate, updateRateMs) => {
+<li data-line="1" dir="auto">Some whisper that <strong>Yssaviel is sleeping more often</strong>, and when it dreams, the air itself changes — <span class="arcane-word"><span class="arcane-nature
+">ᚦ</span><span class="arcane-nature
+">ᛏ</span><span class="arcane-nature
+">ᛝ</span><span class="arcane-nature
+">ᚾ</span><span class="arcane-nature
+">ᚠ</span><span class="arcane-nature
+">ᛟ</span><span class="arcane-nature
+">ᛁ</span><span class="arcane-nature
+">ᚾ</span><span class="arcane-nature
+">ᛞ</span></span><span class="arcane-word"> </span><span class="arcane-word"><span class="arcane-nature
+">ᚨ</span><span class="arcane-nature
+">ᛝ</span><span class="arcane-nature
+">ᛈ</span><span class="arcane-nature
+">ᛚ</span><span class="arcane-nature
+">ᛃ</span><span class="arcane-nature
+">ᛇ</span><span class="arcane-nature
+">ᛁ</span><span class="arcane-nature
+">ᛉ</span><span class="arcane-nature
+">ᛟ</span><span class="arcane-nature
+">ᛁ</span><span class="arcane-nature
+">ᛖ</span><span class="arcane-nature
+">ᛁ</span></span><script class="arcane-script">((characterSet, characterChangeRate, updateRateMs) => {
   function getRandomCharacter(not) {
     let candidates = characterSet.replace(not != null ? not : "", "");
     return candidates[Math.floor(Math.random() * candidates.length)];
