@@ -1,60 +1,5 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Elarion (Playersafe)]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Elarion (Playersafe)</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 21 Jul 2025 06:26:12 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 21 Jul 2025 06:26:12 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[The Dawnward Cane]]></title><description><![CDATA[<a class="tag" href="?query=tag:fff7e6" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fff7e6</a> <a class="tag" href="?query=tag:fff2cc" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fff2cc</a> <a class="tag" href="?query=tag:ffeaa7" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ffeaa7</a> <a class="tag" href="?query=tag:fceabb" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fceabb</a> <a class="tag" href="?query=tag:f5e6a4" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#f5e6a4</a> <a class="tag" href="?query=tag:fff3b0" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fff3b0</a> <a class="tag" href="?query=tag:ffdf70" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ffdf70</a> <a class="tag" href="?query=tag:ffcc47" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ffcc47</a> <a class="tag" href="?query=tag:ffeaa7" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ffeaa7</a> <a class="tag" href="?query=tag:fff7e6" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fff7e6</a> <a class="tag" href="?query=tag:fff2cc" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fff2cc</a> <a class="tag" href="?query=tag:ffeaa7" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ffeaa7</a> <a class="tag" href="?query=tag:fceabb" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fceabb</a> <a class="tag" href="?query=tag:f5e6a4" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#f5e6a4</a> <a class="tag" href="?query=tag:fff3b0" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fff3b0</a> <a class="tag" href="?query=tag:ffdf70" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ffdf70</a> <a class="tag" href="?query=tag:ffcc47" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ffcc47</a> <a class="tag" href="?query=tag:ffeaa7" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ffeaa7</a> 
- <br>[<br>.arcane-character:hover {<br>
-transform: scale(1.15) rotate(2deg);<br>
-text-shadow:<br>
-0 0 6px <a href=".?query=tag:fff3b0" class="tag" target="_blank" rel="noopener nofollow">#fff3b0</a>,<br>
-0 0 10px <a href=".?query=tag:ffdf70" class="tag" target="_blank" rel="noopener nofollow">#ffdf70</a>,<br>
-0 0 16px <a href=".?query=tag:ffcc47" class="tag" target="_blank" rel="noopener nofollow">#ffcc47</a>,<br>
-0 0 22px <a href=".?query=tag:ffeaa7" class="tag" target="_blank" rel="noopener nofollow">#ffeaa7</a>;<br>
-}<br>
-](&lt;%3Cstyle%3E<br>
-.arcane-character {<br>
-position: relative;<br>
-display: inline-block;<br>
-font-family: "Junicode", "UnifrakturCook", "Noto Sans Runic", serif;<br>
-color: <a href=".?query=tag:fff7e6" class="tag" target="_blank" rel="noopener nofollow">#fff7e6</a>;<br>
-text-shadow:<br>
-0 0 4px <a href=".?query=tag:fff2cc" class="tag" target="_blank" rel="noopener nofollow">#fff2cc</a>,<br>
-0 0 8px <a href=".?query=tag:ffeaa7" class="tag" target="_blank" rel="noopener nofollow">#ffeaa7</a>,<br>
-0 0 12px <a href=".?query=tag:fceabb" class="tag" target="_blank" rel="noopener nofollow">#fceabb</a>,<br>
-0 0 18px <a href=".?query=tag:f5e6a4" class="tag" target="_blank" rel="noopener nofollow">#f5e6a4</a>;<br>
-transition: text-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;<br>
-}<br>.arcane-character:hover {<br>
-transform: scale(1.15) rotate(2deg);<br>
-text-shadow:<br>
-0 0 6px <a href=".?query=tag:fff3b0" class="tag" target="_blank" rel="noopener nofollow">#fff3b0</a>,<br>
-0 0 10px <a href=".?query=tag:ffdf70" class="tag" target="_blank" rel="noopener nofollow">#ffdf70</a>,<br>
-0 0 16px <a href=".?query=tag:ffcc47" class="tag" target="_blank" rel="noopener nofollow">#ffcc47</a>,<br>
-0 0 22px <a href=".?query=tag:ffeaa7" class="tag" target="_blank" rel="noopener nofollow">#ffeaa7</a>;<br>
-}<br>/ Ripple Effect /<br>
-.arcane-character::after {<br>
-content: "";<br>
-position: absolute;<br>
-top: 50%;<br>
-left: 50%;<br>
-width: 0.4em;<br>
-height: 0.4em;<br>
-background: radial-gradient(circle, rgba(255, 247, 200, 0.3) 0%, transparent 70%);<br>
-border-radius: 50%;<br>
-transform: translate(-50%, -50%) scale(1);<br>
-opacity: 0.8;<br>
-pointer-events: none;<br>
-animation: ripple-glow 2.4s infinite ease-out;<br>
-}<br>@keyframes ripple-glow {<br>
-0% {<br>
-transform: translate(-50%, -50%) scale(0.9);<br>
-opacity: 0.5;<br>
-}<br>
-50% {<br>
-transform: translate(-50%, -50%) scale(1.5);<br>
-opacity: 0.2;<br>
-}<br>
-100% {<br>
-transform: translate(-50%, -50%) scale(2.2);<br>
-opacity: 0;<br>
-}<br>
-}<br>
-&gt;)<br><br>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Elarion (Playersafe)]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Elarion (Playersafe)</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 21 Jul 2025 06:29:02 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 21 Jul 2025 06:29:02 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[The Dawnward Cane]]></title><description><![CDATA[ 
+ <br><br>
 “She gave her breath to the wind, her warmth to the sun, her will to the mountain—and her heart to the staff.”
 <br><br><br>
 <br>The staff is roughly six feet tall, but hovers half an inch above the ground, never fully touching it.  
@@ -65,9 +10,9 @@ opacity: 0;<br>
 <br>The staff was crafted not by hands, but by Saint Vivi herself, through an act of divine transmutation at the moment she invoked the barrier.  
 <br>It is said the wood came from the First Tree of the mountain pass, and the light from a fallen star.  
 <br>When Vivi cast the spell that formed the barrier, she poured her soul into the staff, causing her body to collapse and the artifact to root itself into the sanctum floor.
-<br><br><br>ᛈ ᛟᚹᛒ ᚢᛚᛈᚱᚱ ᛇᛝᛡ ᚷᛝᛇᚷ ᚲᛝᛏᛗᛃ ᛡᛉ ᚲᛏᛁᛝᚷᛗᚱ ᚠᚹ ᚺᚠᚦᛉᚺ ᚷᛝᛟᛃᚷᛖᚱᛖᛚᛠᛁ ᚺᚾ ᚢᛋᛏ ᛠᛖᛏᛒᚲᛠᚷᚨ ᚺᚠ ᛈᛒᚹᚨᛏᛇᛠᚨᛞ ᚨᛚᛃᛗᚱ ᛁᚱᛡᚲᛁᚾᛠᛝᛈᛝ ᛖᚢᚷᛇᚨᛚᚺᚢᛖᛁᚷᚺᚢᛃ<br>
-ᚺ ᚺᛉ ᛗᛟᚹᛡ ᛗᛈᚨᛃᛇᛋᚷᛖᛟᛟᚺᚾᛏᛚᛃᛞᚢ ᚱᚱᛉᚠᛟ ᚹᚢᛒᚢᚨᚦᚦᚷᛇ ᚲᛈᛚᛡᛃᛉᛗᛃᛉᚹᛖᛃᚱᚱᛞᛗ ᚦᚢᚨᛝᚱ ᚨᛋᚨᛋᚢᚠᛝ ᛟᛇᛞᛖ ᛡᚷᚷ ᚺᛠᛏᛁᚹ ᚦᚠᚲᛡᚲ ᛝᛟᛚᚾ ᛇᛝᛝᚦᚹᚺᚺ ᚲᛡᛒᛈᛝᚦᚦ ᚱᚹᛠ ᚺᚾᛈᚢᛗᛈᚺᛚᛃᛏ ᛡᛇ ᛋ ᚺᚦᛟᛟᛡᛉᛃ ᚲᛞᛚᚷᚢ ᛟᛡ ᚺᚱᚠ ᚹᛇᚨᛟᛟᛗᚢ ᚾᛡᛝᚱᛡ<br>
-ᛝ ᚲᛒ ᛋᛝ ᚺᚱᚷᛠ ᛖᛋᛠ ᚷᛗᛏᛖᛃ ᛗᚹ ᛝᛃᛞᛟᛁᛏᛃᛁ ᚾ ᚠᛗᚢᛟᛉᚦᛏᛈᛈᛝᛋᚠᚹ ᚲᛉᛈᛃᛞ ᚠᚹᚱᛃ ᛚᚱᛟᛠᛈ ᛉᛚᛏᛞ ᛝᛖᚹ ᛗᚦᛉᛒ ᚠᛏᛞᛗᛒᚹᛞ ᛏᛃᛏᛗᛏᛋ ᛒᛟᛝᚨ ᛗᛞᛇᚦ ᛇᛒᛏᚺᛒᛉᚹ]]></description><link>one-off-pages\the-dawnward-cane.html</link><guid isPermaLink="false">One off pages/The Dawnward Cane.md</guid><pubDate>Mon, 21 Jul 2025 06:25:44 GMT</pubDate></item><item><title><![CDATA[House Dravakar]]></title><description><![CDATA[ 
+<br><br><br>ᚠ ᛗᚺᛃ ᚠᛇᛇᚲᛠ ᚲᛁᛠ ᛋᛚᛖᛉ ᛈᛈᛁᛠᚲ ᚢᚷ ᛃᚦᛡᚦᚠᛗᛚ ᚢᛉ ᛇᛡᛃᛃᛡ ᚦᛒᛏᛡᛠᛡᛚᛚᛃᛋᛒ ᚺᚺ ᚹᛉᛡ ᛃᛏᛞᚨᛈᛁᛉᛞ ᛞᚹ ᛖᚾᛈᚨᛝᚢᛃᚺᛉ ᛖᛇᛖᛏᛈ ᛗᛡᛖᛞᚾᚱᛚᚱᚱᛏ ᛋᚠᛃᛚᚾᚠᛃᛞᛃᛚᚱᛚᚦᚷ<br>
+ᛡ ᛠᛞ ᛃᚨᚾᛗ ᛋᚾᛝᛝᚦᚺᚹᛡᛡᚠᛝᛠᛚᚾᛃᛟᛡ ᚹᚢᚢᚠᛖ ᛈᚱᛟᚷᚨᚦᛏᚾᛇ ᛒᚲᚠᛠᛞᚢᛒᚲᛁᚱᛗᛡᚠᛏᛠᛇ ᛚᛡᛇᛏᛈ ᚾᚷᛚᚲᚹᛒᛈ ᛖᚢᚹᚲ ᛁᚱᛁ ᛃᚦᛞᛠᛁ ᛠᚺᛝᛁᛁ ᛃᛈᛝᛃ ᚠᛖᛠᛞᚦᚹᚦ ᛞᛇᛉᛟᚷᛏᚲ ᛏᛡᚹ ᛇᛝᚷᛃᛖᛃᛋᛠᚦᛖ ᛡᚺ ᛗ ᛁᚱᚷᛋᚲᛞᛇ ᛉᛋᛃᛝᛁ ᛉᚠ ᛋᚹᛟ ᚱᚷᛡᛝᚲᚲᛝ ᚢᛗᛈᛞᚲ<br>
+ᛡ ᚷᛉ ᛟᚦ ᛞᚹᛒᚢ ᛋᚾᚦ ᚠᚢᛉᚠᚹ ᛞᛝ ᛝᛚᛏᛡᛚᛖᛉᛇ ᛃ ᚱᛟᚦᛚᚲᛈᚹᛗᚹᚢᚱᛠᛏ ᚹᛝᚾᚷᚷ ᚢᛖᛗᛉ ᛉᛈᚲᚨᛡ ᛚᛠᚷᛁ ᚱᛗᚢ ᛚᚷᛖᛗ ᛉᚷᚷᛁᛇᚠᛝ ᛖᚨᚠᚨᛒᛠ ᚱᚠᛡᚨ ᛝᚠᚠᛁ ᚢᛁᛁᚺᛖᛝᛞ]]></description><link>one-off-pages\the-dawnward-cane.html</link><guid isPermaLink="false">One off pages/The Dawnward Cane.md</guid><pubDate>Mon, 21 Jul 2025 06:28:55 GMT</pubDate></item><item><title><![CDATA[House Dravakar]]></title><description><![CDATA[ 
  <br><br>
 “By fire, we rose.”
 <br><br><br>House Dravakar is the oldest and most feared noble house in the <a data-href="Arken Dominion" href="kingdoms\arken-dominion.html" class="internal-link" target="_self" rel="noopener nofollow">Arken Dominion</a>. Its name is synonymous with both the glory of conquest and the price of hubris. Descended from the original bloodline that led the hunt against the dragons, the Dravakars now rule from the Ember Throne, a blackstone dais embedded with molten crystal, perpetually surrounded by flowing lava.<br>They are the only house to bear the true curse of the dying red dragon whose breath melted the Dominion’s capital into its current volcanic state. Though the curse disfigured many and twisted the land, the Dravakars embraced it as divine judgment—and forged themselves anew.<br><br><br>
