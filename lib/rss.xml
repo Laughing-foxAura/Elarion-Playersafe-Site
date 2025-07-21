@@ -1,7 +1,67 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Elarion (Playersafe)]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Elarion (Playersafe)</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 21 Jul 2025 16:31:08 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 21 Jul 2025 16:31:08 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[✦ Vault of Elarion]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Elarion (Playersafe)]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Elarion (Playersafe)</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 21 Jul 2025 07:03:53 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 21 Jul 2025 07:03:53 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[House Delyssar]]></title><description><![CDATA[ 
  <br><br>
-“To understand the world, begin at its name.”
-<br>A singular record, whispered through leyline, lore, and time.<br>
-This vault holds the threads of a realm shaped by rift and relic, by oath and ruin.<br><br><br>→ <a data-href="🌍 The World of Elarion" href="🌍-the-world-of-elarion.html" class="internal-link" target="_self" rel="noopener nofollow">🌍 The World of Elarion</a><br><br><br>
-“Before the stars kept watch, before the mountains knew their weight, the world was sealed not by stone nor flame, but by a name no tongue remembers. Speak it not aloud. It listens still.”
-]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Mon, 21 Jul 2025 16:30:27 GMT</pubDate></item></channel></rss>
+“The stars do not shout. They whisper.”
+<br><br><br>House Delyssar is composed of arcanists, historians, and keepers of lost knowledge. While not officially part of <a data-href="Obelion" href="major-powers\obelion.html" class="internal-link" target="_self" rel="noopener nofollow">Obelion</a>, they maintain ᚱᛉᛏᛒᚲ ᛞᛡᛏᛟ ᛠᛟᛈᚦ ᛈᚱᛒ ᛃᛚᛇᚺᛁᛋᛁᚷ ᛝᛗᚨᛖᛝᚹ Among the court, they are regarded as eccentric but loyal. Among those who know better, they are dangerous — not because they scheme loudly, but because they don’t need to.<br><br><br>Archlady Serentha Delyssar<br>
+Thin, pale, and graceful; always veiled in moonlight enchantments.<br>
+<br>Speaks softly, writes constantly, and never forgets a slight.  
+<br>Said to have memorized the names of every Obelion mage from the last century.
+<br><br><br>An isolated manor overlooking a forested lake under a magically maintained perpetual night sky.<br>
+<br>Its library is one of the most complete arcane archives in <a data-href="Virelia" href="kingdoms\virelia.html" class="internal-link" target="_self" rel="noopener nofollow">Virelia</a> — second only to <a data-href="Obelion" href="major-powers\obelion.html" class="internal-link" target="_self" rel="noopener nofollow">Obelion</a>.  
+<br>Rumored to house a sealed planar gate in its deepest crypt.
+<br><br><br>
+<br>Seeks to preserve knowledge, regardless of danger or moral concern.  
+<br>Believes magic and intellect must guide the realm, even if from behind the curtain.  
+<br>Advocates restraint, but only to protect their secrets.
+<br><br><br>
+<br>Distrusted by <a data-href="House Branmar" href="houses\virelia\house-branmar.html" class="internal-link" target="_self" rel="noopener nofollow">House Branmar</a> (who resent arcane shortcuts to power)  
+<br>Monitored by <a data-href="House Thorne" href="houses\virelia\house-thorne.html" class="internal-link" target="_self" rel="noopener nofollow">House Thorne</a> (due to past inquisitor disappearances)  
+<br>Used strategically by <a data-href="House Vaeron" href="houses\virelia\house-vaeron.html" class="internal-link" target="_self" rel="noopener nofollow">House Vaeron</a> (who benefit from magical forecasting)
+<br><br><br>Magister Othenn Delyssar<br>
+An old, blind scholar who “reads” tomes by touch and smell; supposedly once touched the <a data-href="Eye of the World" href="major-powers\eye-of-the-world.html" class="internal-link" target="_self" rel="noopener nofollow">Eye of the World</a>’s light and lived.<br>Lyra Delyssar<br>
+A teenage prodigy who writes dreams into spellbooks, feared even by senior mages.]]></description><link>houses\virelia\house-delyssar.html</link><guid isPermaLink="false">Houses/Virelia/House Delyssar.md</guid><pubDate>Mon, 21 Jul 2025 07:00:13 GMT</pubDate></item><item><title><![CDATA[Obelion]]></title><description><![CDATA[ 
+ <br><br>Obelion—known as the One True Tower—is the last unified mage tower in the world. Built on a floating island suspended by ancient magic, it is both sanctuary and laboratory for the most gifted arcanists. Obelion maintains neutrality in global conflicts, but its eyes are everywhere.<br>
+<br>Type: Arcane Institution (Floating Island)  
+<br>Leadership: The Circle of Five (rotating archmage council)  
+<br>Goal: Advance magical knowledge and replicate the Perfect Barrier  
+<br>Mobility: The island can move slowly over months  
+<br>Alignment: Lawful Neutral
+<br><br><br>
+<br>The floating island is anchored magically to the skies
+<br>Movement is slow and deliberate, requiring months to change regions
+<br>Currently resides above the <a data-href="Valewind Pactlands" href="kingdoms\valewind-pactlands.html" class="internal-link" target="_self" rel="noopener nofollow">Valewind Pactlands</a>, where magic is tolerated and leylines are strong
+<br>Island Features
+
+<br>Skyward Hall – central tower and lecture spire  
+<br>Leyforge – where leylines are bent into power sources  
+<br>Vault of Mirrors – a library of reflection magic and prophecy  
+<br>Astral Garden – a floating crystal dome for planar study  
+<br>Windstep Docks – suspended platforms where airships or guests arrive
+
+<br><br><br>Obelion radiates strong arcane energy that empowers spells cast nearby. The floating island’s position affects leylines in the region below.<br>Leyline Effects
+The Tower’s presence is strengthening the central leyline of the Pactlands. Druids are divided:
+
+<br>Some fear destabilization if Obelion leaves  
+<br>Others warn that this concentration of magic might awaken forgotten powers
+
+<br><br><br>
+<br>Replicating the <a data-href="Perfect Barrier" href="Perfect Barrier" class="internal-link" target="_self" rel="noopener nofollow">Perfect Barrier</a> of Saint Vivi is a top priority
+<br>Study of rift energy, planar bleed, and remnants of Selune is ongoing
+<br>Accepts magically gifted individuals from all nations—status or origin does not matter
+<br><br><br>Obelion avoids war and refuses military contracts, maintaining total neutrality.<br>
+<br><a data-href="Virelia" href="kingdoms\virelia.html" class="internal-link" target="_self" rel="noopener nofollow">Virelia</a> – Cordial but distant  
+<br><a data-href="Dravandor Confederacy" href="kingdoms\dravandor-confederacy.html" class="internal-link" target="_self" rel="noopener nofollow">Dravandor Confederacy</a> – Occasionally aids with magical study  
+<br><a data-href="Myriath" href="kingdoms\myriath.html" class="internal-link" target="_self" rel="noopener nofollow">Myriath</a> – Admired; seeks knowledge of the Barrier  
+<br><a data-href="Arken Dominion" href="kingdoms\arken-dominion.html" class="internal-link" target="_self" rel="noopener nofollow">Arken Dominion</a> – Deeply distrusted due to anti-arcane beliefs  
+<br><a data-href="Thalor Sylvae" href="kingdoms\thalor-sylvae.html" class="internal-link" target="_self" rel="noopener nofollow">Thalor Sylvae</a> – Holds mutual respect for ancient magics  
+<br><a data-href="Valewind Pactlands" href="kingdoms\valewind-pactlands.html" class="internal-link" target="_self" rel="noopener nofollow">Valewind Pactlands</a> – Current host region; fragile balance with druids
+<br><br><br>
+<br>Archmages rotate by specialty and era. Current seats:
+
+<br>Archmage Veridan – Transmutation and leyline stabilization
+<br>High Seer Elora Vell – Divination and prophecy
+<br>Master Ghallor Tane – Planar studies and void defense
+<br>Scribe-Lord Kael of Chains – Forbidden magics and sealcraft
+<br>Mistress Aivenna of Glass – Illusions and diplomatic outreach
+
+
+]]></description><link>major-powers\obelion.html</link><guid isPermaLink="false">Major Powers/Obelion.md</guid><pubDate>Mon, 21 Jul 2025 07:00:48 GMT</pubDate></item></channel></rss>
