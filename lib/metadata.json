@@ -1,49 +1,12 @@
 {
   "vaultName": "Elarion (Playersafe)",
-  "lastExport": 1753070825777,
+  "lastExport": 1753071690321,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "Houses/Arken/House Dravakar.md",
-    "Houses/Arken/House Ferrosyn.md",
-    "Houses/Arken/House Keldros.md",
-    "Houses/Arken/House Pyrenel.md",
-    "Houses/Arken/House Varnoss.md",
-    "Houses/Dravandor/Cenwyn.md",
-    "Houses/Dravandor/Estrellan.md",
-    "Houses/Dravandor/Myrhold.md",
-    "Houses/Dravandor/Tarnath.md",
-    "Houses/Dravandor/Velmira.md",
-    "Houses/Thalor/House Elenrath.md",
-    "Houses/Thalor/House Ennarion.md",
-    "Houses/Thalor/House Saelthir.md",
-    "Houses/Thalor/House Velasira.md",
-    "Houses/Thalor/House Yriveth.md",
-    "Houses/Valewind/Greenthorn Canopy.md",
-    "Houses/Valewind/Mossmere Basin.md",
-    "Houses/Valewind/Sablefen.md",
-    "Houses/Valewind/Stonegrove Veins.md",
-    "Houses/Virelia/House Branmar.md",
-    "Houses/Virelia/House Delyssar.md",
-    "Houses/Virelia/House Elstrae.md",
-    "Houses/Virelia/House Lorentis.md",
-    "Houses/Virelia/House Thorne.md",
-    "Houses/Virelia/House Vaeron.md",
-    "Kingdoms/Arken Dominion.md",
-    "Kingdoms/Dravandor Confederacy.md",
-    "Kingdoms/Myriath.md",
-    "Kingdoms/Thalor Sylvae.md",
-    "Kingdoms/Valewind Pactlands.md",
-    "Kingdoms/Virelia.md",
-    "Major Powers/Adventurer’s Guild.md",
-    "Major Powers/Eye of the World.md",
-    "Major Powers/Obelion.md",
-    "Major Powers/Shattered Sight.md",
-    "One off pages/Red Howl.md",
-    "One off pages/The Dawnward Cane.md",
-    "🌍 The World of Elarion.md",
+    "Index.md",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -108,412 +71,190 @@
     "lib/styles/main-styles.css"
   ],
   "fileInfo": {
-    "Houses/Arken/House Dravakar.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2327,
-      "exportedPath": "houses/arken/house-dravakar.html",
-      "dependencies": []
-    },
-    "Houses/Arken/House Ferrosyn.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2478,
-      "exportedPath": "houses/arken/house-ferrosyn.html",
-      "dependencies": []
-    },
-    "Houses/Arken/House Keldros.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2797,
-      "exportedPath": "houses/arken/house-keldros.html",
-      "dependencies": []
-    },
-    "Houses/Arken/House Pyrenel.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2245,
-      "exportedPath": "houses/arken/house-pyrenel.html",
-      "dependencies": []
-    },
-    "Houses/Arken/House Varnoss.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2892,
-      "exportedPath": "houses/arken/house-varnoss.html",
-      "dependencies": []
-    },
-    "Houses/Dravandor/Cenwyn.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2848,
-      "exportedPath": "houses/dravandor/cenwyn.html",
-      "dependencies": []
-    },
-    "Houses/Dravandor/Estrellan.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 3015,
-      "exportedPath": "houses/dravandor/estrellan.html",
-      "dependencies": []
-    },
-    "Houses/Dravandor/Myrhold.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 3252,
-      "exportedPath": "houses/dravandor/myrhold.html",
-      "dependencies": []
-    },
-    "Houses/Dravandor/Tarnath.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2966,
-      "exportedPath": "houses/dravandor/tarnath.html",
-      "dependencies": []
-    },
-    "Houses/Dravandor/Velmira.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 3002,
-      "exportedPath": "houses/dravandor/velmira.html",
-      "dependencies": []
-    },
-    "Houses/Thalor/House Elenrath.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 977,
-      "exportedPath": "houses/thalor/house-elenrath.html",
-      "dependencies": []
-    },
-    "Houses/Thalor/House Ennarion.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 1016,
-      "exportedPath": "houses/thalor/house-ennarion.html",
-      "dependencies": []
-    },
-    "Houses/Thalor/House Saelthir.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 921,
-      "exportedPath": "houses/thalor/house-saelthir.html",
-      "dependencies": []
-    },
-    "Houses/Thalor/House Velasira.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 1143,
-      "exportedPath": "houses/thalor/house-velasira.html",
-      "dependencies": []
-    },
-    "Houses/Thalor/House Yriveth.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 1223,
-      "exportedPath": "houses/thalor/house-yriveth.html",
-      "dependencies": []
-    },
-    "Houses/Valewind/Greenthorn Canopy.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2372,
-      "exportedPath": "houses/valewind/greenthorn-canopy.html",
-      "dependencies": []
-    },
-    "Houses/Valewind/Mossmere Basin.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2784,
-      "exportedPath": "houses/valewind/mossmere-basin.html",
-      "dependencies": []
-    },
-    "Houses/Valewind/Sablefen.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2890,
-      "exportedPath": "houses/valewind/sablefen.html",
-      "dependencies": []
-    },
-    "Houses/Valewind/Stonegrove Veins.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2625,
-      "exportedPath": "houses/valewind/stonegrove-veins.html",
-      "dependencies": []
-    },
-    "Houses/Virelia/House Branmar.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 1853,
-      "exportedPath": "houses/virelia/house-branmar.html",
-      "dependencies": []
-    },
-    "Houses/Virelia/House Delyssar.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 1816,
-      "exportedPath": "houses/virelia/house-delyssar.html",
-      "dependencies": []
-    },
-    "Houses/Virelia/House Elstrae.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 1604,
-      "exportedPath": "houses/virelia/house-elstrae.html",
-      "dependencies": []
-    },
-    "Houses/Virelia/House Lorentis.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 1857,
-      "exportedPath": "houses/virelia/house-lorentis.html",
-      "dependencies": []
-    },
-    "Houses/Virelia/House Thorne.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 1854,
-      "exportedPath": "houses/virelia/house-thorne.html",
-      "dependencies": []
-    },
-    "Houses/Virelia/House Vaeron.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 1841,
-      "exportedPath": "houses/virelia/house-vaeron.html",
-      "dependencies": []
-    },
-    "Kingdoms/Arken Dominion.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 3346,
-      "exportedPath": "kingdoms/arken-dominion.html",
-      "dependencies": []
-    },
-    "Kingdoms/Dravandor Confederacy.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2366,
-      "exportedPath": "kingdoms/dravandor-confederacy.html",
-      "dependencies": []
-    },
-    "Kingdoms/Myriath.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2911,
-      "exportedPath": "kingdoms/myriath.html",
-      "dependencies": []
-    },
-    "Kingdoms/Thalor Sylvae.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 3457,
-      "exportedPath": "kingdoms/thalor-sylvae.html",
-      "dependencies": []
-    },
-    "Kingdoms/Valewind Pactlands.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2470,
-      "exportedPath": "kingdoms/valewind-pactlands.html",
-      "dependencies": []
-    },
-    "Kingdoms/Virelia.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2870,
-      "exportedPath": "kingdoms/virelia.html",
-      "dependencies": []
-    },
-    "Major Powers/Adventurer’s Guild.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 2943,
-      "exportedPath": "major-powers/adventurer’s-guild.html",
-      "dependencies": []
-    },
-    "Major Powers/Eye of the World.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 4083,
-      "exportedPath": "major-powers/eye-of-the-world.html",
-      "dependencies": []
-    },
-    "Major Powers/Obelion.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 3145,
-      "exportedPath": "major-powers/obelion.html",
-      "dependencies": []
-    },
-    "Major Powers/Shattered Sight.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 3542,
-      "exportedPath": "major-powers/shattered-sight.html",
-      "dependencies": []
-    },
-    "One off pages/Red Howl.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 1522,
-      "exportedPath": "one-off-pages/red-howl.html",
-      "dependencies": []
-    },
-    "One off pages/The Dawnward Cane.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 1591,
-      "exportedPath": "one-off-pages/the-dawnward-cane.html",
-      "dependencies": []
-    },
-    "🌍 The World of Elarion.md": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 6626,
-      "exportedPath": "🌍-the-world-of-elarion.html",
-      "dependencies": []
-    },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 18980,
+      "modifiedTime": 1753071690321,
+      "sourceSize": 974,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1753070825777,
-      "sourceSize": 3676,
+      "modifiedTime": 1753071690321,
+      "sourceSize": 266,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 138258,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 67992,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 5100,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1753070825777,
+      "modifiedTime": 1753071690321,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "Index.md": {
+      "modifiedTime": 1753071690321,
+      "sourceSize": 278,
+      "exportedPath": "index.html",
       "dependencies": []
     }
   }
